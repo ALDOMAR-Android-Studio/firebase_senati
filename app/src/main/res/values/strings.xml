@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FirebaseSenati</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="iniciar_registry">Registrarme</string>
 </resources>
