@@ -2,4 +2,9 @@
     <string name="app_name">FirebaseSenati</string>
     <string name="iniciar_sesion">Iniciar Sesión</string>
     <string name="iniciar_registry">Registrarme</string>
+    <string name="username">Usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repita su contraseña</string>
+    <string name="save_registry">Registrar</string>
 </resources>
