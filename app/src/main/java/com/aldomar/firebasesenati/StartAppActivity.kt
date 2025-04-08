@@ -14,6 +14,7 @@ import com.google.firebase.auth.FirebaseUser
 class StartAppActivity : AppCompatActivity() {
 
     private lateinit var buttonResgistry: Button
+    private lateinit var buttonLogin: Button
     var firebaseUser: FirebaseUser? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,10 +28,16 @@ class StartAppActivity : AppCompatActivity() {
         }
 
         buttonResgistry = findViewById(R.id.buttonResgistry)
+        buttonLogin = findViewById(R.id.buttonLogin)
 
         buttonResgistry.setOnClickListener {
             val intent = Intent(this, RegistryActivity::class.java)
             Toast.makeText(this, "Registro", Toast.LENGTH_SHORT).show()
+            startActivity(intent)
+        }
+        buttonLogin.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            Toast.makeText(this, "Login", Toast.LENGTH_SHORT).show()
             startActivity(intent)
         }
 

@@ -8,4 +8,5 @@
     <string name="repeat_password">Repita su contraseña</string>
     <string name="save_registry">Registrar</string>
     <string name="menu_close">Cerrar sesión</string>
+    <string name="login_app">Login</string>
 </resources>
